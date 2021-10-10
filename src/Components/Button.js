@@ -32,7 +32,7 @@ const ButtonStyled = styled.button`
         background-color: var(--primary-color);
     }
 
-    &:not(:last-child){
+    &{
         margin-right: .6rem;
     }
 `;
