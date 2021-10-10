@@ -52,12 +52,12 @@ function ContactPage() {
             <ContactItem
               title={"Phone"}
               icon={phone}
-              cont1={"+91-8097322537"}
+              cont1={"8097322537"}
             />
             <ContactItem
-              title={"Email"}
+              title={"Gmail"}
               icon={email}
-              cont1={"sayyedeman59@gmail.com"}
+              cont1={"SAYYEDEMAN59"}
             />
             <ContactItem
               title={"Address"}
@@ -87,7 +87,7 @@ const ContactPageStyled = styled.section`
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       @media screen and (max-width: 502px) {
-        width: 70%;
+        width: 100%;
       }
     }
     .contact-title {
