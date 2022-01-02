@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Title from '../Components/Title';
+import Title from '../components/Title';
 import blogs from '../data/blogs';
 import {MainLayout, InnerLayout} from '../styles/Layouts';
 

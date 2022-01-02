@@ -1,14 +1,14 @@
 
 import { useState } from "react";
 import { useEffect } from "react";
-import Sidebar from "./Components/Sidebar";
+import Sidebar from "./components/Sidebar";
 import styled from 'styled-components';
-import HomePage from "./Pages/HomePage";
-import AboutPage from './Pages/AboutPage';
-import ResumePage from './Pages/ResumePage';
-import PortfoliosPage from './Pages/PortfoliosPage';
-import BlogsPage from './Pages/BlogsPage';
-import ContactPage from './Pages/ContactPage';
+import HomePage from "./pages/HomePage";
+import AboutPage from './pages/AboutPage';
+import ResumePage from './pages/ResumePage';
+import PortfoliosPage from './pages/PortfoliosPage';
+import BlogsPage from './pages/BlogsPage';
+import ContactPage from './pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch as Switching } from "react-router";
@@ -63,7 +63,7 @@ function App() {
           </IconButton>
         </div>
 
-        <MainContentStyled>
+        <MainContentStyled onClick={() => navToggle ? setNavToggle(!navToggle) : null}>
           <div className="lines">
             <div className="line-1"></div>
             <div className="line-2"></div>
