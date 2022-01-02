@@ -2,9 +2,9 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import styled from 'styled-components';
-import HomePage from "./pages/HomePage";
 import Sidebar from "./components/Sidebar";
 import AboutPage from './pages/AboutPage';
+import HomePage from "./pages/HomePage";
 import ResumePage from './pages/ResumePage';
 import PortfoliosPage from './pages/PortfoliosPage';
 import BlogsPage from './pages/BlogsPage';
