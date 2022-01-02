@@ -1,5 +1,5 @@
 import React from "react";
-import Skills from "../components/Skills";
+import Skills from "../Components/Skills";
 import { MainLayout } from "../styles/Layouts";
 
 function ResumePage() {

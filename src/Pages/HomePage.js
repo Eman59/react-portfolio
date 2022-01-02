@@ -3,7 +3,7 @@ import styled from "styled-components";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import Particle from "../components/Particle";
+import Particle from "../Components/Particle";
 
 function HomePage() {
   return (
