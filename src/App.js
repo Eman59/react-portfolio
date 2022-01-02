@@ -1,9 +1,9 @@
 
 import { useState } from "react";
 import { useEffect } from "react";
-import Sidebar from "./components/Sidebar";
 import styled from 'styled-components';
 import HomePage from "./pages/HomePage";
+import Sidebar from "./components/Sidebar";
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import PortfoliosPage from './pages/PortfoliosPage';
