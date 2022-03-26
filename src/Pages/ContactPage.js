@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { MainLayout, InnerLayout } from "../styles/Layouts";
-import Title from "../components/Title";
-import PrimaryButton from "../components/PrimaryButton";
+import Title from "../Components/Title";
+import PrimaryButton from "../Components/PrimaryButton";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
-import ContactItem from "../components/ContactItem";
+import ContactItem from "../Components/ContactItem";
 
 function ContactPage() {
   const phone = <PhoneIcon />;

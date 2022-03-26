@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { InnerLayout } from "../styles/Layouts";
-import Title from "../components/Title";
-import SmallTitle from "../components/SmallTitle";
+import Title from "../Components/Title";
+import SmallTitle from "../Components/SmallTitle";
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import SchoolIcon from "@material-ui/icons/School";
-import ResumeItem from "../components/ResumeItem";
+import ResumeItem from "../Components/ResumeItem";
 
 function Resume() {
   const briefcase = <BusinessCenterIcon />;
