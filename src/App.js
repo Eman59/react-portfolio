@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import styled from 'styled-components';
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./Components/Sidebar";
 import AboutPage from './pages/AboutPage';
 import HomePage from "./pages/HomePage";
 import ResumePage from './pages/ResumePage';
