@@ -3,11 +3,11 @@ import styled from "styled-components";
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import { MainLayout, InnerLayout } from "../styles/Layouts";
-import Title from "../components/Title";
+import Title from "../Components/Title";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
-import ContactItem from "../components/ContactItem";
+import ContactItem from "../Components/ContactItem";
 
 function ContactPage() {
   const phone = <PhoneIcon />;
