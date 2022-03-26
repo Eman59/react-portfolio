@@ -1,13 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Resume from "../img/Resume.pdf";
+import Resume from "../assets/Resume.pdf";
 
 function PrimaryButton({ title }) {
   return (
-    <PrimaryButtonStyled>
-      <a href={Resume} download={Resume}>
+    <PrimaryButtonStyled href={Resume} download={Resume}>
         {title}
-      </a>
     </PrimaryButtonStyled>
   );
 }

@@ -1,8 +1,8 @@
-import css1 from "../img/portImages/cv_css.png";
-import css2 from "../img/portImages/ms.png";
-import react1 from "../img/portImages/react_styled.png";
-import img2 from "../img/portImages/maya-4.jpg";
-import img3 from "../img/portImages/maya-3.jpg";
+import css1 from "../assets/portImages/cv_css.png";
+import css2 from "../assets/portImages/ms.png";
+import react1 from "../assets/portImages/react_styled.png";
+import img2 from "../assets/portImages/maya-4.jpg";
+import img3 from "../assets/portImages/maya-3.jpg";
 
 const portfolios = [
   {

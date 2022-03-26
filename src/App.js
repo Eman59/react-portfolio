@@ -2,13 +2,13 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import styled from 'styled-components';
-import Sidebar from "./Components/Sidebar";
-import AboutPage from './Pages/AboutPage';
-import HomePage from "./Pages/HomePage";
-import ResumePage from './Pages/ResumePage';
-import PortfoliosPage from './Pages/PortfoliosPage';
-import BlogsPage from './Pages/BlogsPage';
-import ContactPage from './Pages/ContactPage';
+import Sidebar from "./components/Sidebar";
+import AboutPage from './pages/AboutPage';
+import HomePage from "./pages/HomePage";
+import ResumePage from './pages/ResumePage';
+import PortfoliosPage from './pages/PortfoliosPage';
+import BlogsPage from './pages/BlogsPage';
+import ContactPage from './pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch as Switching } from "react-router";
@@ -50,8 +50,7 @@ function App() {
                   checked={checked}
                   inputProps={{ 'aria-label': '' }}
                   size="medium"
-                  onClick={themeToggler}
-                  
+                  onClick={themeToggler}                
                 />
               </div>
             </div>

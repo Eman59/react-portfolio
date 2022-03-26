@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import avatar from "../img/avatar.jpg";
+import avatar from "../assets/avatar.jpg";
 
 function Navigation() {
   return (
@@ -43,7 +43,7 @@ function Navigation() {
       </ul>
       <footer className="footer">
         <p>
-          @2021 <b>Imran Sayyed</b>
+          @2022 <b>Imran Sayyed</b>
         </p>
       </footer>
     </NavigationStyled>
