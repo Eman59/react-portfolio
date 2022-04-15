@@ -33,8 +33,8 @@ function ContactPage() {
       })
       .catch((err) => {
         console.log('FAILED...', err);
-    });
-    setToSend({from_name: '', reply_to: '', subject: '', message: '',})
+      });
+    setToSend({ from_name: '', reply_to: '', subject: '', message: '', })
   };
 
   const handleChange = (e) => {
@@ -53,15 +53,15 @@ function ContactPage() {
             <form className="form" onSubmit={onSubmit}>
               <div className="form-field">
                 <label htmlFor="name">Enter your name*</label>
-                <input type="text" id="name" name='from_name' value={toSend.from_name} onChange={handleChange} required/>
+                <input type="text" id="name" name='from_name' value={toSend.from_name} onChange={handleChange} required />
               </div>
               <div className="form-field">
                 <label htmlFor="email">Enter your email*</label>
-                <input type="email" id="email" name='reply_to' value={toSend.reply_to} onChange={handleChange} required/>
+                <input type="email" id="email" name='reply_to' value={toSend.reply_to} onChange={handleChange} required />
               </div>
               <div className="form-field">
                 <label htmlFor="subject">Enter your subject</label>
-                <input type="text" id="subject" name='subject' value={toSend.subject} onChange={handleChange} required/>
+                <input type="text" id="subject" name='subject' value={toSend.subject} onChange={handleChange} required />
               </div>
               <div className="form-field">
                 <label htmlFor="text-area">Enter your Message*</label>
@@ -89,7 +89,7 @@ function ContactPage() {
             <ContactItem
               title={"Gmail"}
               icon={email}
-              cont1={"SAYYEDEMAN59"}
+              cont1={"sayyedeman59"}
             />
             <ContactItem
               title={"Address"}

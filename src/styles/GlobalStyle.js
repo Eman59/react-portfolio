@@ -1,5 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
-
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 /* :root{
@@ -65,7 +64,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Baskervville', serif !important;
     font-size: 1.1rem;
     
 }

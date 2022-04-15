@@ -5,7 +5,7 @@ import Resume from "../assets/Resume.pdf";
 function PrimaryButton({ title }) {
   return (
     <PrimaryButtonStyled href={Resume} download={Resume}>
-        {title}
+      {title}
     </PrimaryButtonStyled>
   );
 }

@@ -3,15 +3,15 @@ import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
 import Pinterest from '@material-ui/icons/Pinterest';
 
-function Menu({menuItem}) {
+function Menu({ menuItem }) {
     return (
         <MenuItemStyled >
             {
-                menuItem.map((item)=>{
+                menuItem.map((item) => {
                     return <div className="grid-item" key={item.id}>
                         <div className="portfolio-content">
                             <div className="portfolio-image">
-                                <img src={item.image} alt=""/>
+                                <img src={item.image} alt="" />
                                 <ul>
                                     <li>
                                         <a href={item.link1}>
@@ -135,8 +135,7 @@ const MenuItemStyled = styled.div`
                     width: calc(100% - 4%);
                     background-color: white;
                     opacity: 0.9;
-                    transform-origin: left;
-                    
+                    transform-origin: left;                    
                     transition: all .4s ease-in-out;
                 }
             }

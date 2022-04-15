@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function Button({filter, button}) {
+function Button({ filter, button }) {
     return (
         <ButtonsStyled>
             {
-                button.map((but, i) =>{
+                button.map((but, i) => {
                     return <ButtonStyled key={i} onClick={() => filter(but)}>
                         {but}
                     </ButtonStyled>

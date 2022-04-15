@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function SmallTitle({icon, title}) {
+function SmallTitle({ icon, title }) {
     return (
         <SmallTitleStyled >
             <p>{icon}</p>

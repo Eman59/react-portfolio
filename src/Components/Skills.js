@@ -13,10 +13,10 @@ function Skills() {
           <ProgressBar title={"HTML5"} width={"90%"} text={"90%"} />
           <ProgressBar title={"CSS3"} width={"90%"} text={"90%"} />
           <ProgressBar title={"JAVASCRIPT"} width={"85%"} text={"85%"} />
-          <ProgressBar title={"JAVA"} width={"60%"} text={"60%"} />
-          <ProgressBar title={"PYTHON"} width={"95%"} text={"95%"} />
-          <ProgressBar title={"React JS"} width={"95%"} text={"95%"} />
-          <ProgressBar title={"UNITY"} width={"75%"} text={"75%"} />
+          <ProgressBar title={"REACT JS"} width={"95%"} text={"95%"} />
+          <ProgressBar title={"NEXT JS"} width={"95%"} text={"95%"} />
+          <ProgressBar title={"NODE JS"} width={"80%"} text={"80%"} />
+          <ProgressBar title={"JAVA"} width={"75%"} text={"75%"} />
         </div>
       </InnerLayout>
     </SkillsStyled>

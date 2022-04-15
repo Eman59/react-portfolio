@@ -21,15 +21,15 @@ function App() {
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
-  useEffect(()=>{
+  useEffect(() => {
     document.documentElement.className = theme;
   }, [theme]);
 
-  const themeToggler = () =>{
-    if(theme === 'light-theme'){
+  const themeToggler = () => {
+    if (theme === 'light-theme') {
       setTheme('dark-theme');
       setChecked(false)
-    }else{
+    } else {
       setTheme('light-theme');
       setChecked(true)
     }
@@ -37,61 +37,61 @@ function App() {
 
   return (
     <div className="App">
-        <Sidebar navToggle={navToggle} />
+      <Sidebar navToggle={navToggle} />
 
-        <div className="theme">
-          <div className="light-dark-mode">
-              <div className="left-content">
-                <Brightness4Icon />
-              </div>
-              <div className="right-content">
-                <Switch
-                  value=""
-                  checked={checked}
-                  inputProps={{ 'aria-label': '' }}
-                  size="medium"
-                  onClick={themeToggler}                
-                />
-              </div>
-            </div>
-        </div>
-
-        <div className="ham-burger-menu">
-          <IconButton onClick={() => setNavToggle(!navToggle)}>
-              <MenuIcon />
-          </IconButton>
-        </div>
-
-        <MainContentStyled onClick={() => navToggle ? setNavToggle(!navToggle) : null}>
-          <div className="lines">
-            <div className="line-1"></div>
-            <div className="line-2"></div>
-            <div className="line-3"></div>
-            <div className="line-4"></div>
+      <div className="theme">
+        <div className="light-dark-mode">
+          <div className="left-content">
+            <Brightness4Icon />
           </div>
+          <div className="right-content">
+            <Switch
+              value=""
+              checked={checked}
+              inputProps={{ 'aria-label': '' }}
+              size="medium"
+              onClick={themeToggler}
+            />
+          </div>
+        </div>
+      </div>
 
-          <Switching>
-            <Route path="/" exact>
-              <HomePage />
-            </Route>
-            <Route path="/about" exact>
-              <AboutPage />
-            </Route>
-            <Route path="/resume" exact>
-              <ResumePage />
-            </Route>
-            <Route path="/portfolios" exact>
-              <PortfoliosPage />
-            </Route>
-            <Route path="/blogs" exact>
-               <BlogsPage />
-            </Route>
-            <Route path="/contact" exact>
-              <ContactPage />
-            </Route>
-          </Switching>
+      <div className="ham-burger-menu">
+        <IconButton onClick={() => setNavToggle(!navToggle)}>
+          <MenuIcon />
+        </IconButton>
+      </div>
 
-        </MainContentStyled>
+      <MainContentStyled onClick={() => navToggle ? setNavToggle(!navToggle) : null}>
+        <div className="lines">
+          <div className="line-1"></div>
+          <div className="line-2"></div>
+          <div className="line-3"></div>
+          <div className="line-4"></div>
+        </div>
+
+        <Switching>
+          <Route path="/" exact>
+            <HomePage />
+          </Route>
+          <Route path="/about" exact>
+            <AboutPage />
+          </Route>
+          <Route path="/resume" exact>
+            <ResumePage />
+          </Route>
+          <Route path="/portfolios" exact>
+            <PortfoliosPage />
+          </Route>
+          <Route path="/blogs" exact>
+            <BlogsPage />
+          </Route>
+          <Route path="/contact" exact>
+            <ContactPage />
+          </Route>
+        </Switching>
+
+      </MainContentStyled>
     </div>
   );
 }

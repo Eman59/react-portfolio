@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ResumeItem({year, title, subTitle, text}) {
+function ResumeItem({ year, title, subTitle, text }) {
     return (
         <ResumeItemStyled>
             <div className="left-content">

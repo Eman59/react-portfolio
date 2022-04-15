@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ReviewItem({text}) {
+function ReviewItem({ text }) {
     return (
         <RevivewItemStyled>
             <p>{text}</p>
