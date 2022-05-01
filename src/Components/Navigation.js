@@ -3,14 +3,14 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import avatar from "../assets/avatar.jpg";
 
-function Navigation() {
+function Navigation(props) {
   return (
     <NavigationStyled>
       <div className="avatar">
         <img src={avatar} alt="" />
       </div>
-      <ul className="nav-items">
-        <li className="nav-item">
+      <ul className="nav-items" onClick={() => props.setNavToggle(!props.navToggle) }>
+        <li className="nav-item"> 
           <NavLink to="/" activeClassName="active-class" exact>
             Home
           </NavLink>
