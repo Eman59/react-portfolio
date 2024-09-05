@@ -30,11 +30,11 @@ function ImageSection() {
           </div>
           <div className="info">
             <p>: Sayyed Imran</p>
-            <p>: 22</p>
+            <p>: 25</p>
             <p>: Indian </p>
             <p>: English, Hindi </p>
             <p>: Mumbai, Maharashtra</p>
-            <p>: Software Developer</p>
+            <p>: Senior Software Developer</p>
           </div>
         </div>
         <PrimaryButton title={"Download Cv"} />

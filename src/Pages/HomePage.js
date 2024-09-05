@@ -16,14 +16,14 @@ function HomePage() {
           Hi, I'm <span>Imran Sayyed</span>
         </h1>
         <p>
-          Proficient in translating designs & wireframes into high-quality code,
-          and writing application interface code via Javascript and ReactJS
-          workflows. Adept at monitoring & maintaining frontend performance and
-          troubleshooting & debugging the same to bolster overall performance.
+          Persistent professional equipped with 5+ years of comprehensive experience in IT
+          industry. Provides strong technical direction across multiple projects. Responsible
+          and articulate individual with strengths in solutions optimization, mobile and cloud
+          solutions and global project management.
         </p>
         <div className="icons">
           <a
-            href="https://www.instagram.com/iamimransayyed/"
+            href="https://www.instagram.com/iamemransayyed/"
             target="_blank"
             rel="noreferrer"
             className="icon i-instagram"

@@ -43,7 +43,7 @@ function Navigation(props) {
       </ul>
       <footer className="footer">
         <p>
-          @2022 <b>Imran Sayyed</b>
+          @2024 <b>Imran Sayyed</b>
         </p>
       </footer>
     </NavigationStyled>

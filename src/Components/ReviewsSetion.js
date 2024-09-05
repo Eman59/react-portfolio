@@ -12,12 +12,12 @@ function ReviewsSetion() {
         <div className="reviews">
           <ReviewItem
             text={
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt culpa ad itaque quas?"
+              "As a senior developer, Imran has taken on a leadership role within the team, mentoring junior developers and providing guidance on best practices. Their expertise in React and modern JavaScript frameworks has been invaluable in helping the team improve our code quality and develop more maintainable solutions. Imran is always willing to help others and frequently provides insightful feedback during code reviews."
             }
           />
           <ReviewItem
             text={
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt culpa ad itaque quas? "
+              "One of Imran’s standout qualities is their commitment to staying updated on the latest technologies and trends in the React ecosystem. Whether it’s experimenting with new React features like Suspense and Concurrent Mode or contributing to open-source projects, Imran is always looking for ways to improve their skill set and apply new techniques to our work."
             }
           />
         </div>

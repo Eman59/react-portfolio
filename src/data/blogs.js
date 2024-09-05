@@ -7,38 +7,42 @@ const blogs = [
     {
         id: 1,
         title: 'How To Work from Home',
-        date: '01',
+        date: '16',
         month: 'April',
-        image: blog1
+        image: blog1,
+        link: 'https://blog.hubspot.com/marketing/productivity-tips-working-from-home'
     },
     {
         id: 2,
         title: 'How To Use SEO Efficiently',
-        date: '01',
+        date: '11',
         month: 'April',
-        image: blog2
+        image: blog2,
+        link: 'https://blog.hubspot.com/marketing/blogging-for-seo'
     },
     {
         id: 3,
         title: 'How to choose a programming Language',
-        date: '01',
+        date: '09',
         month: 'April',
         image: blog3,
-        link: 'https://www.google.co.uk/'
+        link: 'https://blog.hubspot.com/website/how-to-start-coding'
     },
     {
         id: 4,
-        title: 'How To Tse SEO Efficiently',
+        title: 'Outdated Web Development Strategies',
         date: '01',
         month: 'April',
-        image: blog4
+        image: blog4,
+        link: 'https://blog.hubspot.com/website/outdated-web-development-strategies'
     },
     {
         id: 5,
-        title: 'How To Tse SEO Efficiently',
-        date: '01',
+        title: 'JavaScript Dictionary: The Best Ways to Create One',
+        date: '05',
         month: 'April',
-        image: blog4
+        image: blog4,
+        link: 'https://blog.hubspot.com/website/javascript-dictionary'
     }
 ]
 

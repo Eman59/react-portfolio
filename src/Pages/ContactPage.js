@@ -84,12 +84,12 @@ function ContactPage() {
             <ContactItem
               title={"Phone"}
               icon={phone}
-              cont1={"8097322537"}
+              cont1={"+91 8097322537"}
             />
             <ContactItem
               title={"Gmail"}
               icon={email}
-              cont1={"sayyedeman59"}
+              cont1={"sayyedeman59@gmail.com"}
             />
             <ContactItem
               title={"Address"}

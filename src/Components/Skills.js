@@ -10,13 +10,17 @@ function Skills() {
       <Title title={"My Skills"} span={"my skills"} />
       <InnerLayout>
         <div className="skills">
-          <ProgressBar title={"HTML5"} width={"90%"} text={"90%"} />
-          <ProgressBar title={"CSS3"} width={"90%"} text={"90%"} />
-          <ProgressBar title={"JAVASCRIPT"} width={"85%"} text={"85%"} />
-          <ProgressBar title={"REACT JS"} width={"95%"} text={"95%"} />
-          <ProgressBar title={"NEXT JS"} width={"95%"} text={"95%"} />
-          <ProgressBar title={"NODE JS"} width={"80%"} text={"80%"} />
-          <ProgressBar title={"JAVA"} width={"75%"} text={"75%"} />
+          <ProgressBar title={"React"} width={"100%"} text={"100%"} />
+          <ProgressBar title={"NextJs"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"TypeScript"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"JavaScript"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"Redux State Management"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"Unit Testing"} width={"100%"} text={"100%"} />
+          <ProgressBar title={"GCP"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"Jira"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"Git"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"Performance Optimization"} width={"90%"} text={"90%"} />
+          <ProgressBar title={"NodeJS"} width={"90%"} text={"90%"} />
         </div>
       </InnerLayout>
     </SkillsStyled>
